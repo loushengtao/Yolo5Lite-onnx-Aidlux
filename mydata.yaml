@@ -1,0 +1,17 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../dataset/train  
+val: ../dataset/valid
+test: 
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'pen', 'mouse', 'controller' ]
+
+# Print classes
+# with open('data/coco.yaml') as f:
+#   d = yaml.load(f, Loader=yaml.FullLoader)  # dict
+#   for i, x in enumerate(d['names']):
+#     print(i, x)
